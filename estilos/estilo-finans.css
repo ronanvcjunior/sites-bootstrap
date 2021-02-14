@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
 
+
 img {
     display: block;
-    max-height: 100%;
-    width: 100%;
+    max-width: 100%;
 }
 
 header {
-    height: 100vh;
+    overflow-x: hidden;
 }
 
 header .logo {
@@ -21,17 +21,12 @@ header .login:hover {
     color: #ffc107;
 }
 
-header .topo {
-    height: calc(100vh - 186px);
-}
-
 @media (min-width: 576px) {
-    header .topo {
-        height: calc(100vh - 86px);
+
+    header ul li a:hover {
+        border-bottom: 1px solid white;
     }
-}
 
-@media (min-width: 576px) {
     header .titulo {
         font-size: 3rem;
     }
@@ -50,4 +45,8 @@ header .topo {
 
 header .cel:hover {
     color: #ffc107;
+}
+
+.img {
+    max-height: 340px;
 }
