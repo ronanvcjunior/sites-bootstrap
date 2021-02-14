@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100vh;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .login:hover {
+    color: #ffc107;
+}
+
+header .topo {
+    height: calc(100vh - 186px);
+}
+
+@media (min-width: 576px) {
+    header .topo {
+        height: calc(100vh - 86px);
+    }
+}
+
+@media (min-width: 576px) {
+    header .titulo {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header .titulo {
+        font-size: 3.5rem;
+    }
+
+    header .logo {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+header .cel:hover {
+    color: #ffc107;
+}
