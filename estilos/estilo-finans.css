@@ -50,3 +50,8 @@ header .cel:hover {
 .img {
     max-height: 340px;
 }
+
+.icon {
+    width: 42px;
+    padding: 8px 0;
+}
