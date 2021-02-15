@@ -1,3 +1,8 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .parallax {
     background-image: url(../imagens/spotify/capa.png);
     background-attachment: fixed;
@@ -6,16 +11,97 @@
 
 header {
     height: 100vh;
+    background-image: linear-gradient(45deg, #ff0066a1, #7c25f8a1);
 }
 
- .topo {
-    background: rgba(44, 44, 44, 0.8);
+header .topo {
+    background: rgba(0, 0, 0, 0.6);
 }
 
- .logo img {
+header .logo img {
     width: 150px;
 }
 
- .capa {
-    height: calc(100vh - 93px);
+header .capa {
+    height: calc(100vh);
+    width: calc(100% + 15px);
+}
+
+header .titulo {
+    font-size: 2.5rem;
+}
+
+header .botao {
+    background-color: #7c25f8;
+}
+
+header .botao:hover {
+    background-color: #6c08f7;
+}
+
+.main-1 h2,
+.main-1 h3 {
+    color: #7c25f8;
+}
+
+.main-2 {
+    background-image: linear-gradient(45deg, #ff0066a1, #7c25f8a1);
+    overflow: hidden;
+}
+
+.main-2 h3 {
+    color: #9bf0e1;
+}
+
+footer .logo2 img {
+    width: 90px;
+}
+
+footer .nav-inferior li {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 576px) {
+    header .titulo {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header .titulo {
+        font-size: 4rem;
+    }
+
+    footer .logo2 img {
+        width: 150px;
+    }
+
+    .caixa {
+        rotate: 30deg;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    header .titulo {
+        font-size: 5rem;
+    }
+
+    .main-1 h2, .main-2 h2 {
+        font-size: 3rem;
+    }
+
+    .caixa {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header .titulo {
+        font-size: 6rem;
+    }
+
+    .caixa {
+        margin-top: 0;
+    }
 }
