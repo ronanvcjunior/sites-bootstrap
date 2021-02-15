@@ -1,0 +1,21 @@
+.parallax {
+    background-image: url(../imagens/spotify/capa.png);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+header {
+    height: 100vh;
+}
+
+ .topo {
+    background: rgba(44, 44, 44, 0.8);
+}
+
+ .logo img {
+    width: 150px;
+}
+
+ .capa {
+    height: calc(100vh - 93px);
+}
